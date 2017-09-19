@@ -1,16 +1,16 @@
 
 
-var myButton = document.getElementById('test');
+var myButton = document.getElementById('test'); //get button object
 
 function changeColour(){
     // If innerHTML == "Hi"
     // change button colour to blue
     //else change to red
-    var inner = myButton.innerHTML;
-    if(5 === "5")
+    var inner = myButton.innerHTML; //get 'innerHTML' attribute from the button object
+    if(inner.innerHTML === "Hi") //compare innerHTML of button to our chosen value. === for strict equality
     {
-        myButton.style.backgroundColor = 'blue';
-        myButton.innerHTML = "Yo";
+        myButton.style.backgroundColor = 'blue'; //Change background color
+        myButton.innerHTML = "Yo"; // change text. Will cause a toggle between color/text
     }
     else {
         myButton.style.backgroundColor = 'red';
@@ -18,4 +18,4 @@ function changeColour(){
     }
 }
 
-myButton.addEventListener('click',changeColour);
+myButton.addEventListener('click',changeColour); //Adding event to button click
