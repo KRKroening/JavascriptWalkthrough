@@ -19,7 +19,7 @@ function divAssignment(){
     }
 }
 
-document.addEventListener('domContentLoaded',divAssignment); //Added load event to be in line with Jim
+document.addEventListener('DOMContentLoaded',divAssignment); //Added load event to be in line with Jim
 
 
 

@@ -7,7 +7,7 @@ function changeColour(){
     // change button colour to blue
     //else change to red
     var inner = myButton.innerHTML; //get 'innerHTML' attribute from the button object
-    if(inner.innerHTML === "Hi") //compare innerHTML of button to our chosen value. === for strict equality
+    if(inner === "Hi") //compare innerHTML of button to our chosen value. === for strict equality
     {
         myButton.style.backgroundColor = 'blue'; //Change background color
         myButton.innerHTML = "Yo"; // change text. Will cause a toggle between color/text
