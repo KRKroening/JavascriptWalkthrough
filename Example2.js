@@ -19,10 +19,7 @@ function divAssignment(){
     }
 }
 
-divAssignment();
-
-
-
+document.addEventListener('load',divAssignment); //Added load event to be in line with Jim
 
 
 

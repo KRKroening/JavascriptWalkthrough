@@ -23,8 +23,7 @@ function addCustomListerners(){ //To add listeners to our buttons
     toTopList.addEventListener('click', moveOptionUp);
 }
 
-addCustomListerners(); //On load, this will run
-
+document.addEventListener('load',addCustomListerners); //changed to load event to be in line with Jim
 
 
 
