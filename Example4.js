@@ -5,7 +5,7 @@ function load(){
 
     */
 
-        //  Set up global variables. These will be refered to by all the other functions.
+    //  Set up global variables. These will be refered to by all the other functions.
     var resultBox = document.querySelector(".divTableCellResult input");
     var happening = document.querySelector(".divTableCellHappening p");
 
