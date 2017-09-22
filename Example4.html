@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Example One</title>
+
+<style>
+    .divTableCell {
+        height: 150px;
+        width: 150px;
+        display: inline-block;
+    }
+
+    button {
+        height: 100%;
+        width: 100%;
+    }
+    .divTableCell:last-of-type {
+        margin: 0 154px;
+    }
+
+    .divTableBody{
+        margin-top: 75px;
+    }
+    .divTableCellClear {
+        width: 100px;
+    }
+
+    .divTableRowUtil div{
+        display: inline-block;
+    }
+
+
+
+</style>
+
+</head>
+<body>
+
+<h1>Calculator </h1>
+<a href="main.html">Home</a>
+<div class="divTable">
+    <div class="divTableBody">
+        <div class="divTableRowUtil">
+            <div class="divTableCellClear"><button id="clear">Clear</button> </div>
+            <div class="divTableCellResult"><p> Result: <input type="text" readonly/></p></div>
+            <div class="divTableCellHappening"><p></p></div>            
+        </div>
+        <div class="divTableRow">
+            <div class="divTableCell"><button id="1">1</button> </div>
+            <div class="divTableCell"><button id="2">2</button></div>
+            <div class="divTableCell"><button id="3">3</button></div>
+            <div class="divTableCell"><button id="+">+</button></div>
+        </div>
+        <div class="divTableRow">
+            <div class="divTableCell"><button id="4">4</button> </div>
+            <div class="divTableCell"><button id="5">5</button></div>
+            <div class="divTableCell"><button id="6">6</button></div>
+            <div class="divTableCell"><button id="-">-</button></div>
+        </div>
+        <div class="divTableRow">
+            <div class="divTableCell"><button id="7">7</button> </div>
+            <div class="divTableCell"><button id="8">8</button></div>
+            <div class="divTableCell"><button id="9">9</button></div>
+            <div class="divTableCell"><button id="=">=</button></div>
+            </div>
+        </div>
+        <div class="divTableRow">
+            <div class="divTableCell"><button id="0">0</button></div>
+        </div>
+    </div>  
+</div>
+
+</body>
+<script src="Example4.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded',load); // Here instead of in the script file.
+</script>
+
+</html>
