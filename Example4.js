@@ -53,6 +53,7 @@ function load(){
                 allButtons[i].addEventListener('click', addNumberFromClick) //Assigns buttons for 1-0
             } else {
                 // checks the values of the other buttons
+                // + - = clear
                 switch(value) 
                 {
                     case 'clear':

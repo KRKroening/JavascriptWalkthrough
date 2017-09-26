@@ -7,21 +7,28 @@
         display: inline-block;
         margin: 15px;
     }
+    #target{
+        width: 200px;
+        height:200px;
+    }
 </style>
+<script src="Exercise5.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded',onAppInit);
+</script>
+
 </head>
 <body>
     <h2> RBG Picker</h2>
     <a href="main.html">home</a>
+    <div id="target"></div>
 
-<p > Red:<input id="red" type="number" max="255" min="0"/></p>
-<p > Blue:<input id="blue" type="number" max="255" min="0"/></p>
-<p > Green:<input id="green" type="number" max="255" min="0"/></p>
+    <p > Red:<input id="red" type="number" max="255" min="0"/></p>
+    <p > Blue:<input id="blue" type="number" max="255" min="0"/></p>
+    <p > Green:<input id="green" type="number" max="255" min="0"/></p>
 
-<button>Submit</button>
+    <button id="submit">Submit</button>
 
 </body>
-<script src="Exercise5.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded',onAppInit);
-    </script>
+
 </html>
